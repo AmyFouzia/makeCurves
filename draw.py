@@ -5,7 +5,7 @@ from matrix import *
 def add_circle( points, cx, cy, cz, r, step ):
     x0 = cx + r
     y0 = cy
-    t = 0
+    track = 0
     while(track < 1):
         angle = 2 * math.pi*track
         x1 = cx + r*math.cos(angle)
